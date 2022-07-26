@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Setting up grid within Product Panel */
+.productPanel {
+    display: grid;
+    grid-template-columns: 304.66px 1fr 1fr;
+    column-gap: 50px;
+    grid-template-rows: [start] 0 [row1] 17% [row2] 70% [row3];
+}
+
+.productPanel {
+    margin: 3em auto 0 auto;
+    width: 1024px;
+    height: 30em;
+    min-height: fit-content;
+    max-height: 50%;
+    border-style: solid;
+    border-width: 5px;
+    position: relative;
+    
+}
+
+.banner {
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: start;
+    grid-row-end: row2;
+    background-color: #f3f3f4;
+}
+
+.banner > h1 {
+    font-size: 30px;
+    text-align: center;
+    grid-row-start: start;
+    grid-row-end: row2;
+}
+
+.saleTag {
+    background-color: red;
+    position: absolute;
+    padding: 7px 15px;
+    left: -42px;
+    top: -18px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 6em;
+    height: 2.5em;
+}
+
+.saleTag > h4 {
+    padding: 1px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.productImage {
+    background-image: url("assets/shoes.jpeg");
+    background-size: cover;
+}
+
+.productDetails > h2 {
+    font-size: 22px;
+    margin-top: 26px;
+}
+
+.detailList {
+    font-size: 21px;
+    line-height: 1.5;
+    list-style: square;
+    margin-top: 20px;
+    margin-left: 22px;
+    padding-right: 10px;
+}
+
+.detailList li {
+    padding: 6px;
+}
+
+.productInfo {
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+.shippingInfo {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    float: right;
+    margin-top: 8px;
+}
+
+.blurb {
+    font-size: 20px;
+    text-align: left;
+    margin: 75px 0 25px 0;
+    line-height: 1.5;
+}
+
+.moreInfo {
+    color: black;
+    font-size: 20px;
+}
+
+.moreInfo:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.colorSelect {
+    list-style: none;
+    margin: 45px 0 0 0;
+}
+
+.colorButton {border: none;
+   background-color: lightBlue;
+   height:25px;
+   width:25px;
+   cursor: pointer;
+}
+
+.colorSelect li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#color1 {
+    background-color: black;
+}
+
+#color2 {
+    background-color: blue;
+}
+
+#color3 {
+    background-color: red;
+}
+
+#color4 {
+    background-color: yellow;
+}
+
+#color5 {
+    background-color: lightgreen;
+}
+
+#color6 {
+    background-color: brown;
+}
+
+.addToCart {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.addToCartButton {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    border-top: 6px solid black;
+}
+
+.addToCartButton:hover {
+    background-color: white;
+    color: black;
+}
