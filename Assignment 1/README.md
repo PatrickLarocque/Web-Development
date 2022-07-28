@@ -8,4 +8,4 @@ Assignment 1 directory uploaded to github at: <https://github.com/PatrickLarocqu
 
 ## Screenshots
 
-![ScreenShot](assets/Screenshot.png)
+![ScreenShot](Assets/Screenshot.png)
