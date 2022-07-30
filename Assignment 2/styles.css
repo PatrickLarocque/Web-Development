@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #ff4c68;
+}
+
+#nav-container {
+    padding: 3% 15% 0;
+    font-size: 1.15em;
+}
+
+#brand {
+    color: white;
+    font-size: 40px;
+    font-family: "Ubuntu";
+}
+
+.nav-link {
+    margin: 0 2.65rem 0 0;
+    font-family: "Montserrat-light";
+}
+
+#nav-download {
+    margin-right: 1.2rem;
+}
