@@ -16,8 +16,158 @@
 .nav-link {
     margin: 0 2.65rem 0 0;
     font-family: "Montserrat-light";
+    font-size: 19px;
 }
 
 #nav-download {
-    margin-right: 1.2rem;
+    margin-right: 1.3rem;
 }
+
+#banner {
+    background-color: #ff4c68;
+    padding: 3% 15% 0;
+    margin: 0;
+    font-family: "Montserrat";
+    padding-bottom: 3rem;
+}
+
+#slogan-downloads, #phone-mockup {
+    padding: 0 0 4rem 0;
+}
+
+#slogan {
+    color: white;
+    padding-bottom: 40px;
+    font-weight: 900;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+#btn-android {
+    background-color: inherit;
+    color: white;
+    font-weight: 400;
+    border-radius: 6px;
+    margin: 0 15px 7px 0;
+}
+
+#btn-android:hover {
+    background-color: white;
+    color: black;
+}
+
+.fa-google-play {
+    margin-right: 10px;
+}
+
+#btn-apple {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-weight: 400;
+    border-radius: 6px;
+    margin: 0 15px 7px 0;
+}
+
+#btn-apple:hover {
+    background-color: black;
+}
+
+.fa-apple {
+    margin-right: 10px;
+    width: 20px;
+}
+
+#iphone6-mockup {
+    transform: rotate(24deg);
+    width: 22%;
+    position: absolute;
+    z-index: 1;
+    margin: 1em 0 0 7%;
+}
+
+#features {
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 10% 12% 10%;
+    margin: 0;
+}
+
+#features i {
+    color: #ef8172;
+    margin-bottom: 12px;
+}
+
+.feature {
+    padding: 40px;
+}
+
+
+
+
+
+/* Media Breakpoints */
+
+@media screen and (max-width: 1800px) {
+    #iphone6-mockup {
+      transform: rotate(21deg);
+    }
+  }
+
+
+@media screen and (max-width: 1600px) {
+    #iphone6-mockup {
+      transform: rotate(18deg);
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    #iphone6-mockup {
+      transform: rotate(14deg);
+      width: 23%;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    #iphone6-mockup {
+      transform: rotate(8deg);
+      width: 24%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    #iphone6-mockup {
+      transform: rotate(0deg);
+      width: 25%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    #iphone6-mockup {
+      transform: rotate(0deg);
+      width: 27%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    #iphone6-mockup {
+      transform: rotate(0deg);
+      width: 29%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    #iphone6-mockup {
+      width: 31%;
+    }
+  }
+
+  @media screen and (max-width: 660px) {
+    #iphone6-mockup {
+      display: none;
+    }
+  }
