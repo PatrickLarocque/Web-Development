@@ -8,9 +8,11 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
-  <title>Tindog - It's Tinder, for dogs!</title>
+  <title>Tindog - Like Tinder, but for dogs!</title>
 </head>
 <body>
+
+  <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid" id="nav-container">
       <a class="navbar-brand" id="brand" href="">tindog</a>
@@ -26,6 +28,8 @@
       </div>
     </div>
   </nav>
+
+  <!-- Banner and Slogan -->
   <section class="row container-fluid" id="banner">
         <div class="col" id="slogan-downloads">
           <h1 id="slogan">Meet new and interesting dogs nearby.</h1>
@@ -37,23 +41,65 @@
         </div>
       </div>
   </section>
+
+  <!-- Features -->
   <section id="features" class="row container-fluid text-center">
-    <div class="col feature">
+    <div class="col-lg-4">
       <i class="fa-solid fa-circle-check fa-4x"></i>
       <h2>Easy to use.</h2>
       <p>So easy to use, even your dog could do it.</p>
     </div>
-    <div class="col feature">
+    <div class="col-lg-4">
       <i class="fa-solid fa-bullseye fa-4x"></i>
       <h2>Elite Clientele.</h2>
       <p>We have all the dogs, the greatest dogs.</p>
     </div>
-    <div class="col feature">
+    <div class="col-lg-4">
       <i class="fa-solid fa-heart fa-4x"></i>
       <h2>Guaranteed to work.</h2>
       <p>Find the love of your dog's life or your money back.</p>
     </div>
   </section>
+
+  <!-- Testimonials carousel -->
+  <section id="testimonials" class="text-center">
+    <div id="carouselControls" class="carousel slide" data-bs-ride="false">
+      <div class="row carousel-inner">
+        <div class="carousel-item active">
+          <p class="row customer-testimonal">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</p>
+          <img src="Assets/dog-img.jpg" alt="golden-retriever-named-Pebbels">
+          <p class="name-area">Pebbels, New York</p>
+        </div>
+        <div class="carousel-item">
+          <p class="customer-testimonal">My dog used to be so lonely, but with Tindog's help, they've found the love of their life. I think.</p>
+          <img src="Assets/lady-img.jpg" alt="woman-named-Beverly">
+          <p class="name-area">Beverly, Illinois</p>
+        </div>
+        <div class="carousel-item">
+          <p class="customer-testimonal">After moving to a new area, I wanted to make new friends for my dog Milo. Tindog has made it a breeze! </p>
+          <img src="Assets/angela.png" alt="woman-named-Angela">
+          <p class="name-area">Angela, California</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Press -->
+  <section id="press" class="row">
+    <div class="col"><img class="press-logo img-fluid" src="Assets/TechCrunch.png" alt="TechCrunch-logo"></div>
+    <div class="col"><img class="press-logo img-fluid" src="Assets/tnw.png" alt="The-Next-Web-logo"></div>
+    <div class="col"><img class="press-logo img-fluid" src="Assets/bizinsider.png" alt="Business-Insider-logo"></div>
+    <div class="col"><img class="press-logo img-fluid" src="Assets/mashable.png" alt="Mashable-logo"></div>
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>

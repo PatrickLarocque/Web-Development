@@ -3,7 +3,7 @@
 }
 
 #nav-container {
-    padding: 3% 15% 0;
+    padding: 2.5% 15% 0;
     font-size: 1.15em;
 }
 
@@ -25,19 +25,18 @@
 
 #banner {
     background-color: #ff4c68;
-    padding: 3% 15% 0;
+    padding: 3% 15% 3%;
     margin: 0;
     font-family: "Montserrat";
-    padding-bottom: 3rem;
 }
 
 #slogan-downloads, #phone-mockup {
-    padding: 0 0 4rem 0;
+    padding: 0 0 2.5rem 0;
 }
 
 #slogan {
     color: white;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     font-weight: 900;
     font-size: 3.5em;
     line-height: 1.5;
@@ -48,7 +47,7 @@
     color: white;
     font-weight: 400;
     border-radius: 6px;
-    margin: 0 15px 7px 0;
+    margin: 8px 0px 6px 0;
 }
 
 #btn-android:hover {
@@ -57,7 +56,7 @@
 }
 
 .fa-google-play {
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 #btn-apple {
@@ -65,7 +64,7 @@
     color: white;
     font-weight: 400;
     border-radius: 6px;
-    margin: 0 15px 7px 0;
+    margin: 8px 15px 6px 0;
 }
 
 #btn-apple:hover {
@@ -73,16 +72,17 @@
 }
 
 .fa-apple {
-    margin-right: 10px;
+    margin-right: 5px;
     width: 20px;
+    padding: 0;
 }
 
 #iphone6-mockup {
     transform: rotate(24deg);
     width: 22%;
     position: absolute;
-    z-index: 1;
-    margin: 1em 0 0 7%;
+    z-index: 0;
+    margin: .6em 0 0 7%;
 }
 
 #features {
@@ -90,7 +90,7 @@
     position: relative;
     background-color: white;
     font-family: "Montserrat", sans-serif;
-    padding: 10% 12% 10%;
+    padding: 10% 14% 10%;
     margin: 0;
 }
 
@@ -99,13 +99,61 @@
     margin-bottom: 12px;
 }
 
-.feature {
-    padding: 40px;
+#features i:hover {
+  color: #ff4c68;
 }
 
+#features h2 {
+  font-size: 1.6em;
+  font-weight: 900;
+  padding: 8px 5px 0 5px;
+}
 
+#features p {
+  color: #8f8f8f;
+  padding-bottom: 1em;
+}
 
+#testimonials {
+  background-color: #ef8172;
+  position: relative;
+  z-index: 2;
+}
 
+.carousel-item img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.customer-testimonal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 300%;
+  font-weight: 900;
+  color: white;
+  padding: 5% 16% 10px;
+}
+
+.name-area {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  display: inline;
+  margin-left: 1%;
+  font-style: italic;
+}
+
+#press {
+  background-color: #ef8172;
+  display: flex;
+  justify-content: center;
+  padding: 3% 16% 3%;
+}
+
+.press-logo {
+  padding: 6%;
+  min-width: 155px !important;
+  min-height: 65px !important;
+}
 
 /* Media Breakpoints */
 
@@ -120,12 +168,18 @@
     #iphone6-mockup {
       transform: rotate(18deg);
     }
+    .customer-testimonal {
+      font-size: 275%;
+    }
   }
 
   @media screen and (max-width: 1400px) {
     #iphone6-mockup {
-      transform: rotate(14deg);
+      transform: rotate(12deg);
       width: 23%;
+    }
+    .customer-testimonal {
+      font-size: 265%;
     }
   }
 
@@ -133,6 +187,9 @@
     #iphone6-mockup {
       transform: rotate(8deg);
       width: 24%;
+    }
+    .customer-testimonal {
+      font-size: 255%;
     }
   }
 
@@ -142,6 +199,9 @@
       width: 25%;
       height: auto;
     }
+    .customer-testimonal {
+      font-size: 245%;
+    }
   }
 
   @media screen and (max-width: 850px) {
@@ -150,7 +210,11 @@
       width: 27%;
       height: auto;
     }
+    .customer-testimonal {
+      font-size: 235%;
+    }
   }
+
 
   @media screen and (max-width: 730px) {
     #iphone6-mockup {
@@ -158,16 +222,25 @@
       width: 29%;
       height: auto;
     }
+    .customer-testimonal {
+      font-size: 225%;
+    }
   }
 
   @media screen and (max-width: 700px) {
     #iphone6-mockup {
       width: 31%;
     }
+    .customer-testimonal {
+      font-size: 215%;
+    }
   }
 
   @media screen and (max-width: 660px) {
     #iphone6-mockup {
       display: none;
+    }
+    .customer-testimonal {
+      font-size: 200%;
     }
   }
