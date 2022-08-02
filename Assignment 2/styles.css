@@ -3,7 +3,7 @@
 }
 
 #nav-container {
-    padding: 2.5% 15% 0;
+    padding: 2.5% 15% 1%;
     font-size: 1.15em;
 }
 
@@ -25,7 +25,7 @@
 
 #banner {
     background-color: #ff4c68;
-    padding: 3% 15% 3%;
+    padding: 3% 15% 4%;
     margin: 0;
     font-family: "Montserrat";
 }
@@ -46,8 +46,8 @@
     background-color: inherit;
     color: white;
     font-weight: 400;
-    border-radius: 6px;
-    margin: 8px 0px 6px 0;
+    border-radius: 5px;
+    margin: 8px 15px 6px 0;
 }
 
 #btn-android:hover {
@@ -63,7 +63,7 @@
     background-color: rgb(65, 65, 65);
     color: white;
     font-weight: 400;
-    border-radius: 6px;
+    border-radius: 5px;
     margin: 8px 15px 6px 0;
 }
 
@@ -90,7 +90,7 @@
     position: relative;
     background-color: white;
     font-family: "Montserrat", sans-serif;
-    padding: 10% 14% 10%;
+    padding: 12% 14% 12%;
     margin: 0;
 }
 
@@ -127,7 +127,7 @@
 
 .customer-testimonal {
   font-family: "Montserrat", sans-serif;
-  font-size: 300%;
+  font-size: 280%;
   font-weight: 900;
   color: white;
   padding: 5% 16% 10px;
@@ -144,15 +144,78 @@
 
 #press {
   background-color: #ef8172;
+  padding: 4% 16% 3%;
+}
+
+#press > .col {
   display: flex;
   justify-content: center;
-  padding: 3% 16% 3%;
 }
 
 .press-logo {
-  padding: 6%;
-  min-width: 155px !important;
-  min-height: 65px !important;
+  padding: 4% 7% 4%;
+  width: 84%;
+  height: 84%;
+  min-width: 196px;
+  min-height: 76px;
+  max-width: 346px;
+  max-height: 138px;
+}
+
+#pricing {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  padding: 3% 15% 3%;
+  margin-bottom: 3em;
+}
+
+#pricing > .heading {
+  font-size: 3em;
+  font-weight: 900;
+  padding: 4% 0 12px 0;
+}
+
+#pricing > .subheading {
+  color: #8f8f8f;
+  padding-bottom: 2%;
+}
+
+.pricing-plan {
+  padding: 2%;
+}
+
+.tier-name {
+  padding: 14px 0 14px 0;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.price {
+  font-size: 3em;
+  font-weight: 900;
+  padding: 2% 0 2% 0;
+}
+
+.plan-details {
+  color: #8f8f8f;
+}
+
+#mastiff-tier .card-body .plan-details {
+  line-height: 87%;
+}
+
+#sign-up-btn1, #sign-up-btn2, #sign-up-btn3 {
+  margin-top: 22px;
+}
+#sign-up-btn2, #sign-up-btn3 {
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-radius: 5px;
+}
+
+#sign-up-btn2:hover, #sign-up-btn3:hover {
+  background-color: black;
 }
 
 /* Media Breakpoints */
@@ -160,6 +223,10 @@
 @media screen and (max-width: 1800px) {
     #iphone6-mockup {
       transform: rotate(21deg);
+    }
+    .press-logo {
+      width: 86%;
+      height: 86%;
     }
   }
 
@@ -169,7 +236,7 @@
       transform: rotate(18deg);
     }
     .customer-testimonal {
-      font-size: 275%;
+      font-size: 265%;
     }
   }
 
@@ -180,6 +247,10 @@
     }
     .customer-testimonal {
       font-size: 265%;
+    }
+    .press-logo {
+      width: 88%;
+      height: 88%;
     }
   }
 
@@ -195,52 +266,82 @@
 
   @media screen and (max-width: 1200px) {
     #iphone6-mockup {
-      transform: rotate(0deg);
+      transform: rotate(6deg);
       width: 25%;
       height: auto;
     }
     .customer-testimonal {
-      font-size: 245%;
+      font-size: 240%;
     }
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1080px) {
     #iphone6-mockup {
       transform: rotate(0deg);
-      width: 27%;
+      width: 26%;
       height: auto;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    #banner {
+      text-align: center;
+    }
+    #iphone6-mockup {
+      transform: rotate(0deg);
+      width: 38%;
+      height: auto;
+      position: static;
+      margin: 0 auto 0 auto;
     }
     .customer-testimonal {
       font-size: 235%;
     }
   }
 
+  @media screen and (max-width: 850px) {
+    #banner {
+      text-align: center;
+    }
+    #iphone6-mockup {
+      transform: rotate(0deg);
+      width: 40%;
+      height: auto;
+      position: static;
+    }
+    .customer-testimonal {
+      font-size: 230%;
+    }
+  }
 
   @media screen and (max-width: 730px) {
     #iphone6-mockup {
       transform: rotate(0deg);
-      width: 29%;
+      width: 44%;
       height: auto;
     }
     .customer-testimonal {
-      font-size: 225%;
+      font-size: 220%;
     }
   }
 
   @media screen and (max-width: 700px) {
-    #iphone6-mockup {
-      width: 31%;
-    }
     .customer-testimonal {
-      font-size: 215%;
+      font-size: 200%;
     }
   }
 
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 639px) {
     #iphone6-mockup {
       display: none;
     }
     .customer-testimonal {
-      font-size: 200%;
+      font-size: 180%;
+    }
+  }
+
+  @media screen and (max-width: 348px) {
+    .name-area {
+      display: block;
     }
   }
