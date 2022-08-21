@@ -1,4 +1,4 @@
-# Front-End Web Development - Assignment 1
+# Front-End Web Development - Assignment 2
 
 Name: Patrick Larocque   
 Student ID: 0879202  
