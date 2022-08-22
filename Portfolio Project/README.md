@@ -16,3 +16,4 @@ Portfolio directory uploaded to github at: <https://github.com/PatrickLarocque/W
 ![ScreenShot](Assets/PortfolioSS2.jpg)
 ![ScreenShot](Assets/PortfolioSS3.jpg)
 ![ScreenShot](Assets/PortfolioSS4.jpg)
+![ScreenShot](Assets/PortfolioSS5.jpg)

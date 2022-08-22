@@ -17,6 +17,29 @@ let mixerPortfolio = mixitup('.work__container', {
     }
 });
 
+/*========== Active Services Modality ==========*/ 
+const modalViews = document.querySelectorAll(".services__modal"),
+    modalBtns = document.querySelectorAll(".services__button"),
+    modalClose = document.querySelectorAll(".services__modal-close");
+
+let modal = function(modalClick) {
+    modalViews[modalClick].classList.add('active-modal');
+}
+
+modalBtns.forEach((mb, i) => {
+    mb.addEventListener('click', () => {
+        modal(i)
+    })
+});
+
+modalClose.forEach((mc, i) => {
+    mc.addEventListener('click', () => {
+        modalViews.forEach((mv) => {
+            mv.classList.remove('active-modal')
+        })
+    })
+});
+
 /*========== Style the active filter button in the projects section ==========*/ 
 const filterArray = document.querySelectorAll(".work__item");
 
