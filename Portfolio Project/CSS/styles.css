@@ -222,7 +222,7 @@ body.light-theme {
   color: var(--text-color-light);
 }
 
-/*=============== HEADER & NAV===============*/
+/*=============== HEADER & NAV ===============*/
 .header {
     position: fixed;
     top: 0;
